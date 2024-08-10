@@ -10,9 +10,11 @@
 
 在这里，我针对河工的计算机专业课程收集整理了一些我亲自学习过或具有极佳口碑的计算机相关课程指南，希望对你将来的学习有所帮助。
 
-GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
+- GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
-国内镜像地址（隔日同步拉取更新）： [wiki.lys2021.com](https://wiki.lys2021.com)
+- 国内镜像地址（隔日同步拉取更新）： [wiki.lys2021.com](https://wiki.lys2021.com)
+
+本项目已被[河南工程学院开源社区](https://github.com/haueosc)收录，感谢河工学子的支持！
 
 ****
 
@@ -31,9 +33,8 @@ GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
 **注意**：
 
-* 在新建分支前，注意检查 `main` 分支是否与主项目保持同步，若不同步，记得拉取更新
-* 提交 pr 前也可以先联系我先行审核，避免后续修改，或者干脆发给我，我帮你 pr 上去（
-* 请在合并完成后再删除本地修改的分支。
+- 提交 pr 前可以先联系我先行审核，避免后续修改，或者干脆发给我，我帮你 pr 上去（
+- 请在合并完成后再删除本地修改的分支。
 
 ****
 
@@ -43,9 +44,9 @@ GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
 针对计算机的学习我们即将建立了以下学习矩阵：
 
-* [河工C/C++交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK6lTceTXsM1ZHeWWo4i9gfiIy7YFvNz&authKey=O1BE3SHj%2FlfR%2BIo%2Bf9wsVWPl3Gd4YUDzRqk7IehjGpD4NZuMK2aKQ50Q3EcQMCc2&noverify=0&group_code=907733709)
-* [河工Python交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V4RfyZcFpEw-wfnX-Ck6c0Q8a1NsHK2T&authKey=YK5doMcM43LIIDb8dFkcmymd9g7QThEB9q89m604hVq7VI6v69jSRIfmfQSrN6EE&noverify=0&group_code=476586332)
-* [河工Java交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Zm8MUF5_X_NttegYnhdv9eeYxv2iC7sn&authKey=rwPlDN5zUbwU8WzOSvv%2FR3u8wwgS2yu7DAvFAq%2BMRATIglis8SNHg3%2FCLhW%2Bpi8I&noverify=0&group_code=907625834)
+* [河工 Java 交流群🔥🔥🔥](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Zm8MUF5_X_NttegYnhdv9eeYxv2iC7sn&authKey=rwPlDN5zUbwU8WzOSvv%2FR3u8wwgS2yu7DAvFAq%2BMRATIglis8SNHg3%2FCLhW%2Bpi8I&noverify=0&group_code=907625834)
+* [河工 Python 交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V4RfyZcFpEw-wfnX-Ck6c0Q8a1NsHK2T&authKey=YK5doMcM43LIIDb8dFkcmymd9g7QThEB9q89m604hVq7VI6v69jSRIfmfQSrN6EE&noverify=0&group_code=476586332)
+* [河工 C/C++ 交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK6lTceTXsM1ZHeWWo4i9gfiIy7YFvNz&authKey=O1BE3SHj%2FlfR%2BIo%2Bf9wsVWPl3Gd4YUDzRqk7IehjGpD4NZuMK2aKQ50Q3EcQMCc2&noverify=0&group_code=907733709)
 
 ****
 

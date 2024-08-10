@@ -6,14 +6,15 @@
 
 ****
 
-你好哇！欢迎来到 HAUE-CS-WIKI，这里是河工计算机学习指南。
+你好哇！欢迎来到 HAUE-CS-WIKI，这里是河南工程学院计算机专业学习指南。
 
-在这里，我针对河工的计算机专业课程收集整理了一些我亲自学习过或具有极佳口碑的计算机相关课程指南，希望对你将来的学习有所帮助。
+在这里，我针对河南工程学院的计算机专业课程收集整理了一些我亲自学习过或具有极佳口碑的计算机相关课程指南，希望对你将来的学习有所帮助。
 
-GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
+- GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
-国内镜像地址（隔日同步拉取更新）： [wiki.lys2021.com](https://wiki.lys2021.com)
+- 国内镜像地址（隔日同步拉取更新）： [wiki.lys2021.com](https://wiki.lys2021.com)
 
+本项目已被[河南工程学院开源社区](https://github.com/haueosc)收录，感谢河工学子的支持！
 
 ****
 
@@ -85,7 +86,7 @@ GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
 ****
 
-由于我的精力有限，我实在不可能把所有计算机相关的都学一遍。因此，如果你有推荐的课程或资料分享，欢迎提交pr或发邮件给我[1002302241@qq.com](mailto:1002302241@qq.com)。
+由于我的精力有限，我实在不可能把所有计算机相关的课程都学一遍。因此，如果你有推荐的课程或资料分享，欢迎提交pr或发邮件给我[1002302241@qq.com](mailto:1002302241@qq.com)。
 
 提交pr请参考本项目主页的 [`README.md`](https://github.com/Doge2077/haue-cs-wiki#%E6%88%90%E4%B8%BA%E8%B4%A1%E7%8C%AE%E8%80%85)。
 

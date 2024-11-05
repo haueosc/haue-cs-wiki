@@ -13,7 +13,14 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '测试目录1',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '测试目录2',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }

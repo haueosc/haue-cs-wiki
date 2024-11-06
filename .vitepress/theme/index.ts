@@ -21,6 +21,7 @@ import 'vitepress-plugin-codeblocks-fold/style/index.css'
 import Footer from './components/Footer.vue'
 import TypedInfo from './components/TypedInfo.vue'
 import Main from './components/Main.vue'
+import Wall from './components/Wall.vue'
 import HeroImage from './components/HeroImage.vue'
 //-------------------------------------------------
 export default {
@@ -57,5 +58,6 @@ export default {
       }
     } as NolebaseReadOptions);
     app.component('MainComponent', Main);
+    app.component('WallComponent', Wall)
   }
 } satisfies Theme

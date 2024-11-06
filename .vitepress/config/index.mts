@@ -46,7 +46,7 @@ export default defineConfig({
         repoURL: () => 'https://github.com/haueosc/haue-cs-wiki',
       }),
       GitChangelogMarkdownSection({
-        exclude: (id) => id.endsWith('index.md'),
+        exclude: (id) => id.slice(-9) === 'index.md',
         sections: {
           disableContributors: true,
         },

@@ -30,10 +30,15 @@ export const zh = defineConfig({
         lastUpdated: {
             text: '最后更新于',
             formatOptions: {
-                dateStyle: 'short',
-                timeStyle: 'medium'
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
             }
         },
+        
 
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
@@ -47,8 +52,7 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
     return [
         { text: '首页', link: '/Main' },
-        { text: 'Hello 算法', link: 'https://www.hello-algo.com/' },
-        { text: 'Oi Wiki', link: 'https://oi-wiki.org/' },
+        { text: '名人墙', link: '/Wall' },
         { text: 'HAUE OJ', link: 'http://www.haueacm.top/' },
     ]
 }

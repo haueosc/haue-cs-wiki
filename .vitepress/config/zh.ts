@@ -60,16 +60,17 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebar(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: forewordIcon + '序言',
-            collapsed: false,
+            text: forewordIcon + '新手入门',
+            collapsed: true,
             items: [
-                { text: '编写初衷', link: '/Foreword/intention', },
-                { text: '入门须知', link: '/Foreword/prerequisites', },
+                { text: '河工计算机学院专业介绍', link: '/新手入门/河工计算机学院专业介绍', },
+                { text: '小白如何选择笔记本电脑', link: '/新手入门/小白如何选择笔记本电脑', },
+                { text: '转专业二三事', link: '/新手入门/转专业二三事', },
             ]
         },
         {
             text: envIcon + '环境搭建',
-            collapsed: false,
+            collapsed: true,
             items: [
                 { text: '引入', link: '/Environment/introduction' },
                 { text: '准备', link: '/Environment/pre-knowledges' },

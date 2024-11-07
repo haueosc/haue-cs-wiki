@@ -57,7 +57,6 @@ export default {
         }
       }
     } as NolebaseReadOptions);
-    app.component('MainComponent', Main);
-    app.component('WallComponent', Wall)
+    app.component('WallComponent', Wall);
   }
 } satisfies Theme

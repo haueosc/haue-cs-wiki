@@ -1,9 +1,9 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { forewordIcon, envIcon, grammarIcon, algoIcon, linuxIcon } from '../theme/icons/svg-path'
+import { forewordIcon, school, tools, backend, frontend, chatgpt, learn_408, hard_worker, run_bag } from '../theme/icons/svg-path'
 
 export const zh = defineConfig({
     lang: 'zh-Hans',
-    title: "HAUE-CS-WIKI",
+    title: "HAUE CS WIKI",
     description: "河工计算机学习指南",
     themeConfig: {
         //顶部导航栏选项
@@ -60,6 +60,13 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebar(): DefaultTheme.SidebarItem[] {
     return [
         {
+            text: '前言',
+            collapsed: true,
+            items: [
+                { text: '入门须知', link: '/前言/入门须知', },
+            ]
+        },
+        {
             text: forewordIcon + '新手入门',
             collapsed: true,
             items: [
@@ -69,133 +76,138 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             ]
         },
         {
-            text: envIcon + '环境搭建',
+            text: tools + '开发工具',
             collapsed: true,
             items: [
-                { text: '引入', link: '/Environment/introduction' },
-                { text: '准备', link: '/Environment/pre-knowledges' },
+                { text: '科学上网', link: '/开发工具/科学上网', },
+                { text: 'JetBrains全家桶', link: '/开发工具/JetBrains全家桶', },
+            ]
+        },
+        {
+            text: school + '学科课程',
+            collapsed: true,
+            items: [
                 {
-                    text: 'C/C++',
+                    text: '语言基础',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Environment/c-cpp/overview' },
-                        { text: 'Dev C++', link: '/Environment/c-cpp/bloodshed-devcpp' },
-                        { text: '小熊猫Dev C++', link: '/Environment/c-cpp/red-panda' },
-                        { text: 'CodeBlocks', link: '/Environment/c-cpp/codeblocks' },
-                        { text: 'Visual Studio', link: '/Environment/c-cpp/visual-studio' },
-                        { text: 'Visual Studio Code', link: '/Environment/c-cpp/vs-code' },
-                        { text: 'Sublime Text', link: '/Environment/c-cpp/sublime-text' },
-                        { text: 'Vim/Neovim', link: '/Environment/c-cpp/vim-neovim' },
+                        { text: 'C语言基础', link: '/学科课程/语言基础/C语言基础' },
+                        { text: 'C++语法基础', link: '/学科课程/语言基础/C++语法基础' },
+                        { text: 'Java语法基础', link: '/学科课程/语言基础/Java语法基础' },
+                        { text: 'Python语法基础', link: '/学科课程/语言基础/Python语法基础' },
                     ]
                 },
                 {
-                    text: 'Java',
+                    text: '计算机基础',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Environment/java/overview' },
-                        { text: 'Eclipse', link: '/Environment/java/eclipse' },
-                        { text: 'IntelliJ IDEA', link: '/Environment/java/idea' },
-                        { text: 'Visual Studio Code', link: '/Environment/java/vs-code' },
-                        { text: 'Sublime Text', link: '/Environment/java/sublime-text' },
-                        { text: 'Vim/Neovim', link: '/Environment/java/vim-neovim' },
+                        { text: '数据结构', link: '/学科课程/计算机基础/数据结构' },
+                        { text: '计算机组成原理', link: '/学科课程/计算机基础/计算机组成原理' },
+                        { text: '计算机网络', link: '/学科课程/计算机基础/计算机网络' },
+                        { text: '操作系统', link: '/学科课程/计算机基础/操作系统' },
                     ]
                 },
                 {
-                    text: 'Python',
+                    text: '专业课程',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Environment/python/overview' },
-                        { text: 'Thonny', link: '/Environment/python/thonny' },
-                        { text: 'PyCharm', link: '/Environment/python/pycharm' },
-                        { text: 'Python IDLE', link: '/Environment/python/py-idle' },
-                        { text: 'Visual Studio Code', link: '/Environment/python/vs-code' },
-                        { text: 'Sublime Text', link: '/Environment/python/sublime-text' },
-                        { text: 'Vim/Neovim', link: '/Environment/python/vim-neovim' },
+                        { text: '数据库原理', link: '/学科课程/专业课程/数据库原理' },
+                        { text: '编译原理', link: '/学科课程/专业课程/编译原理' },
                     ]
                 },
             ]
         },
         {
-            text: grammarIcon + '语法基础&基础数据结构',
-            collapsed: false,
+            text: backend + '后端开发',
+            collapsed: true,
             items: [
-                { text: '引入', link: '/Grammar-DataStructure/introduction', },
                 {
-                    text: 'C语言',
+                    text: 'Java技术栈',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Grammar-DataStructure/c/overview' },
-                        { text: '数据类型', link: '/Grammar-DataStructure/c/data-type' },
-                        { text: '运算符', link: '/Grammar-DataStructure/c/operator' },
-                        { text: '流程控制', link: '/Grammar-DataStructure/c/control' },
-                        { text: '函数', link: '/Grammar-DataStructure/c/function' },
-                        { text: '数组', link: '/Grammar-DataStructure/c/array' },
-                        { text: '指针', link: '/Grammar-DataStructure/c/pointer' },
-                        { text: '结构体和链表', link: '/Grammar-DataStructure/c/struct' }
+                        { text: '预防针', link: '/后端开发/Java技术栈/预防针' },
+                        { text: '基础阶段', link: '/后端开发/Java技术栈/基础阶段' },
+                        { text: '提高阶段', link: '/后端开发/Java技术栈/提高阶段' },
+                        { text: '进阶阶段', link: '/后端开发/Java技术栈/进阶阶段' },
                     ]
                 },
                 {
-                    text: 'C++',
+                    text: 'Python技术栈',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Grammar-DataStructure/cpp/overview' },
-                        { text: '基础语法', link: '/Grammar-DataStructure/cpp/base' },
-                        { text: '输入输出', link: '/Grammar-DataStructure/cpp/in-out' },
-                        { text: '函数', link: '/Grammar-DataStructure/cpp/function' },
-                        { text: '数组与字符串', link: '/Grammar-DataStructure/cpp/array-str' },
-                        { text: '指针与引用', link: '/Grammar-DataStructure/cpp/pointer' },
-                        { text: '内存管理', link: '/Grammar-DataStructure/cpp/memory' }
+                        { text: 'Django框架', link: '/后端开发/Python技术栈/Django框架' },
+                        { text: 'Flask框架', link: '/后端开发/Python技术栈/Flask框架' },
+                    ]
+                }
+            ]
+        },
+        {
+            text: frontend + '前端开发',
+            collapsed: true,
+            items: [
+                {
+                    text: '前端开发基础',
+                    collapsed: true,
+                    items: [
+                        { text: 'HTML基础', link: '/前端开发/前端开发基础/HTML基础' },
+                        { text: 'CSS基础', link: '/前端开发/前端开发基础/CSS基础' },
+                        { text: 'JavaScript基础', link: '/前端开发/前端开发基础/JavaScript基础' }
                     ]
                 },
                 {
-                    text: 'Python',
+                    text: 'Vue技术栈',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Grammar-DataStructure/python/overview', },
+                        { text: 'Vue基础', link: '/前端开发/Vue技术栈/Vue基础' },
                     ]
                 },
                 {
-                    text: 'Java',
+                    text: 'React技术栈',
                     collapsed: true,
                     items: [
-                        { text: '概述', link: '/Grammar-DataStructure/java/overview', },
-                        { text: '初步体验', link: '/Grammar-DataStructure/java/primer', },
-                        { text: '注释', link: '/Grammar-DataStructure/java/annotation', },
-                        { text: '变量与运算符', link: '/Grammar-DataStructure/java/var-opt', },
-                        { text: '数组', link: '/Grammar-DataStructure/java/array', },
-                        {
-                            text: '面向对象',
-                            collapsed: true,
-                            items:
-                                [
-                                    { text: '概述&面向对象三特性', link: '/Grammar-DataStructure/java/OOP', },
-                                    { text: '类与对象', link: '/Grammar-DataStructure/java/ClassAndObject', },
-                                    { text: '关键字', link: '/Grammar-DataStructure/java/keyword', }
-                                ]
-                        },
-
-                        { text: '多线程', link: '/Grammar-DataStructure/java/multithreading', },
-                        { text: '线程池', link: '/Grammar-DataStructure/java/threadPoll', },
+                        { text: 'React基础', link: '/前端开发/React技术栈/React基础' },
+                    ]
+                }
+            ]
+        },
+        {
+            text: chatgpt + '人工智能',
+            collapsed: true,
+            items: [
+                { text: '机器学习', link: '/人工智能/机器学习', },
+            ]
+        },
+        {
+            text: learn_408 + '考研经验',
+            collapsed: true,
+            items: [
+                { text: '24届考研上岸211', link: '/工作经验/预防针', },
+            ]
+        },
+        {
+            text: hard_worker + '工作经验',
+            collapsed: true,
+            items: [
+                { text: '预防针', link: '/工作经验/预防针', },
+                { text: '找工作指南', link: '/工作经验/找工作指南', },
+                { text: '简历技巧', link: '/工作经验/简历技巧', },
+                { text: '面试技巧', link: '/工作经验/面试技巧', },
+                { text: '薪资拆解', link: '/工作经验/薪资拆解', },
+                {
+                    text: '案例分享',
+                    collapsed: true,
+                    items: [
+                        { text: '二本如何进大厂', link: '/工作经验/案例分享/二本如何进大厂' },
                     ]
                 },
             ]
         },
         {
-            text: algoIcon + '算法基础',
-            collapsed: false,
+            text: run_bag + '考公留学',
+            collapsed: true,
             items: [
-                { text: '引入', link: '/Algorithm/introduction' },
-                { text: 'Hello Algo' },
-                { text: 'Oi Wiki' },
-            ]
-        },
-        {
-            text: linuxIcon + 'Linux初阶',
-            collapsed: false,
-            items: [
-                { text: '引入', link: '/Linux/introduction' },
-                { text: '安装', link: '/Linux/install' },
-                { text: '包管理器', link: '/Linux/package-mgr' },
+                { text: '考公指南', link: '/考公留学/考公指南', },
+                { text: '润学指南', link: '/考公留学/润学指南', },
             ]
         },
     ]

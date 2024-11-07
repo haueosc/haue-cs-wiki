@@ -1,125 +1,243 @@
 <template>
-    <div class="card-main">
-        <!-- 公告标题 -->
-        <div class="card-title">
-            <svg t="1723538554269" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                p-id="1502" width="26" height="26">
-                <path
-                    d="M694.368 117.28a67.957333 67.957333 0 0 1 10.336 36.021333v717.408a67.957333 67.957333 0 0 1-103.978667 57.632L326.026667 756.650667H180.48A95.146667 95.146667 0 0 1 85.333333 661.504V362.506667a95.146667 95.146667 0 0 1 95.146667-95.146667h145.546667L600.725333 95.68a67.957333 67.957333 0 0 1 93.653334 21.610667z m120.330667 133.525333a32 32 0 0 1 44.533333 8.042667 443.114667 443.114667 0 0 1 0.117333 506.133333 32 32 0 0 1-52.586666-36.458666 379.114667 379.114667 0 0 0-0.106667-433.184 32 32 0 0 1 8.042667-44.533334z"
-                    fill="currentColor" p-id="1503"></path>
-            </svg>
-            <strong style="font-size: 1.3rem;">公告</strong>
-        </div>
-        <!-- 公告内容 -->
-        <div style="padding-left: 15px;">
-            <ul style="font-size: 1rem;">
-                <li>
-                    本文档基于
-                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-                        CC BY-NC-SA 4.0(Creative Commons Attribution-ShareAlike 4.0)
-                    </a>开源协议，内容转载请标明出处。
-                </li>
-                <li>
-                    校内授权 QQ 群聊：
-                    <a href="https://qm.qq.com/q/DZcC4JhnP4" target="_blank">
-                        148518259(24级C语言交流群)
-                    </a>、
-                    <a href="https://qm.qq.com/q/L58jzI8P6y" target="_blank">
-                        980609672(轻大开发交流群)
-                    </a>、
-                    <a href="https://qm.qq.com/q/kpNAnQDRle" target="_blank">
-                        834896850(软院萌新学术交流群)
-                    </a>，群内包含文档官方机器人，可以帮你实时获取文档信息。啊，也可以带你玩一些好玩的（）
-                </li>
-                <li>
-                    文档持续更新中 🚀，任何文档内容问题欢迎到文档仓库提交 issues 或 pr，或者进入以上校内授权群聊进行反馈，当然，你也可以发送邮件至 admin@frexlink.com 告知我们。
-                </li>
-                <li>
-                    想要加入文档的编写？当然！你可以通过向文档仓库提交 pr 来帮助我们完善文档内容，你也可以在授权群聊内联系或@管理员来申请仓库的 push 权限。期待大家的到来！
-                </li>
-                <li>
-                    如果你现在或者未来有意向在 GitHub 上帮助完善此文档的内容，我们希望你在此之前已经了解了 vitepress 文档的基本结构和编写步骤以及 Git 和 GitHub 的使用基础。
-                </li>
-                <li>
-                    CalDav 订阅将于近期开放，请耐心等待。
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="card">
-        <!-- 卡片标题栏 -->
-        <div class="card-title">
-            <svg t="1721673707225" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                p-id="6813" width="24" height="24">
-                <path
-                    d="M304 550.4h416v-64h-416zM304 422.4h416v-64h-416zM304 294.4h416v-64h-416zM278.4 825.6h64v-192h-64z"
-                    fill="currentColor" p-id="6814"></path>
-                <path
-                    d="M214.4 761.6h192v-64h-192zM499.2 688c-19.2 19.2-28.8 41.6-28.8 67.2s9.6 51.2 28.8 67.2l44.8-44.8c-6.4-6.4-9.6-12.8-9.6-22.4 0-9.6 3.2-16 9.6-22.4l-22.4-22.4 22.4 22.4c12.8-12.8 32-12.8 44.8 0l44.8-44.8c-35.2-35.2-96-35.2-134.4 0M672 688c-19.2 19.2-28.8 41.6-28.8 67.2s9.6 51.2 28.8 67.2l44.8-44.8c-6.4-6.4-9.6-12.8-9.6-22.4 0-9.6 3.2-16 9.6-22.4l-22.4-22.4 22.4 22.4c12.8-12.8 32-12.8 44.8 0l44.8-44.8c-35.2-35.2-96-35.2-134.4 0"
-                    fill="currentColor" p-id="6815"></path>
-                <path
-                    d="M640 0h-256C172.8 0 0 172.8 0 384v256c0 211.2 172.8 384 384 384h256c211.2 0 384-172.8 384-384v-256c0-211.2-172.8-384-384-384m0 64c176 0 320 144 320 320v256c0 176-144 320-320 320h-256C208 960 64 816 64 640v-256C64 208 208 64 384 64h256"
-                    fill="currentColor" p-id="6816"></path>
-            </svg>
-            <strong style="font-size: 1.1rem;">算法比赛信息</strong>
-            <div style="position: absolute; right: 0; display: flex; gap: 5px; align-items: center;">
-                <svg t="1721738445647" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" p-id="7135" width="15" height="15">
-                    <path
-                        d="M160.768 702.464q33.792 0 62.976 12.8t50.688 34.816 34.304 51.2 12.8 61.952q0 33.792-12.8 62.976t-34.304 50.688-50.688 34.304-62.976 12.8q-32.768 0-61.952-12.8t-51.2-34.304-34.816-50.688-12.8-62.976q0-32.768 12.8-61.952t34.816-51.2 51.2-34.816 61.952-12.8zM66.56 377.856q119.808 0 225.792 45.568t184.32 124.416 123.904 184.832 45.568 225.792l-89.088 0q-44.032 0-83.968-1.024 0-83.968-31.744-158.208t-87.04-129.536-129.536-87.04-158.208-31.744l0-173.056zM67.584 68.608q122.88 0 236.544 31.744t212.48 89.6 179.712 139.264 138.752 180.224 89.6 211.968 31.744 236.032l-59.392 0-36.864 0q-16.384 0-30.208-0.512t-32.256-0.512q0-100.352-26.112-194.048t-73.728-174.592-114.176-147.456-147.456-113.664-174.08-73.216-193.536-26.112l0-32.768q0-24.576-0.512-50.688t-0.512-47.616l0-27.648z"
-                        fill="currentColor" p-id="7136"></path>
-                </svg>
-                <a class="alink" style="font-size: 0.89rem" href="" target="_blank">
-                    CalDav订阅
-                </a>
-            </div>
-        </div>
-        <!-- 比赛状态说明栏 -->
-        <div style="display: flex; align-items: center; gap: 20px">
-            <!-- Public -->
-            <div style="display: flex; align-items: center; gap: 5px">
-                <div style="background-color: rgb(73, 185, 255); width: 14px; height: 14px; border-radius: 50px;">
+   <body>
+<div class="container">
+
+    <h1 class="title"></h1>
+
+    <ul class="cards">
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img
+                                class="icon"
+                                src="https://cdn.acwing.com/media/article/image/2024/03/02/149096_9fd42130d8-100173210_p0_master1200.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>李宇森</b></h3>
+
+                        <p class="card-sub">计算机科学与技术-21级</p>
+                    </div>
                 </div>
-                <span style="font-weight: 500; font-size:14px">已发布</span>
-            </div>
-            <!-- Register -->
-            <div style="display: flex; align-items: center; gap: 5px">
-                <div style="background-color: #3bc539; width: 14px; height: 14px; border-radius: 50px;"></div>
-                <span style="font-weight: 500; font-size:14px">报名中</span>
-            </div>
-            <!-- Running -->
-            <div style="display: flex; align-items: center; gap: 5px">
-                <div style="background-color: rgb(255, 234, 47); width: 14px; height: 14px; border-radius: 50px;">
+                <div class="card-content">
+                    <p>Java开发方向，致力于开源贡献和知识共享。</p>
+                    <p>曾获算法竞赛国奖五项，省奖十余项。</p>
+                    <p>
+                        2022年6月创建个人博客，涵盖算法和技术等高质量博文，仅一年时间全网浏览量10w+，受邀入驻腾讯云开发者社区。
+                    </p>
+                    <p>2023年7月创建HUAE-CS-WIKI平台，推荐免费的高质量计算机课程和相关资料。</p>
+                    <p>现任校计算机协会副会长、计算机学院ACM协会副会长。</p>
                 </div>
-                <span style="font-weight: 500; font-size:14px">进行中</span>
-            </div>
-        </div>
-        <!-- 比赛信息栏 -->
-        <div v-for="data in contests" class="card-item">
-            <div class="contest-status" :style="getContestClass(data.status)"></div>
-            <div class="contest-info">
-                <a class="alink" :href="data.link">{{ data.name }}</a>
-                <div style="display: flex; align-items: center; gap: 5px">
-                    <svg t="1721716549999" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                        xmlns="http://www.w3.org/2000/svg" p-id="4256" width="15" height="15">
-                        <path
-                            d="M746.149562 266.816725L777.611852 235.204377l9.053537 8.928487-31.4873 31.674873zM485.385201 125.84916h31.862447v108.342321h-31.862447z m127.449785 344.121922c38.239937-38.239937 76.46737-76.46737 108.329817-127.449785l-38.227433-38.239937c-50.982415 38.239937-95.587339 82.844861-133.802266 127.449785-12.742478 0-19.119969-6.364986-31.862447-6.364986-6.377491 0-12.742478 0-25.484955 6.364986A2618.135209 2618.135209 0 0 0 338.802943 183.159047c-12.742478 12.742478-25.484955 19.119969-38.239938 25.484955 38.239937 89.222352 89.222352 172.067214 146.569754 254.89957-6.364986 12.754982-12.742478 25.49746-12.742478 44.617428 0 31.862446 19.119969 63.774912 50.982415 76.46737 31.862446-50.982415 76.46737-89.222352 127.449786-114.707307zM249.593095 227.81399l-12.742477 6.377491L268.663044 272.418914l12.742478-12.742478z m-127.46229 267.604533h108.342321v31.862446H122.130805z m108.342321 274.019539l6.364987 12.754982 38.239937-31.862446-12.742477-12.704963z m0 0"
-                            fill="currentColor" p-id="4257"></path>
-                        <path
-                            d="M485.385201 916.057835h-25.49746c-19.119969 0-31.862446-6.364986-50.982415-12.742477s-38.239937-12.742478-50.982415-12.742478c-50.982415-19.119969-95.587339-50.982415-133.802266-89.209848a409.134818 409.134818 0 0 1-121.097304-293.152012 360.865963 360.865963 0 0 1 19.119969-114.707308c6.377491-25.49746 12.754982-50.982415 25.49746-76.46737 19.119969-31.862446 44.604924-63.774912 70.102384-95.599843 12.742478-12.742478 25.484955-25.484955 38.227432-31.862447 12.742478-12.742478 25.49746-19.119969 44.604924-31.862446 38.239937-19.107464 76.479875-38.227433 114.707308-44.604924 38.239937-12.742478 63.774912-12.742478 95.587338-12.742477 19.119969 0 31.862446 0 50.982415 6.377491 19.119969 0 31.862446 6.364986 50.982415 12.742478 31.862446 6.364986 57.347401 19.119969 82.844862 31.862446 38.239937 19.119969 70.102384 44.604924 95.587338 70.089879l38.239938 38.239937c12.742478 12.742478 19.119969 31.862446 31.862446 44.604924 19.107464 38.239937 38.227433 76.479875 44.604924 114.707307 6.364986 19.119969 6.364986 38.239937 6.364986 57.359907 44.617429 25.484955 76.479875 57.347401 101.96483 95.587338 6.377491-57.359906 6.377491-114.707308-6.364986-165.689722v-6.377491c-19.119969-76.46737-50.982415-146.569754-95.599844-203.917155S810.387155 87.621727 740.284771 55.759281c-50.982415-25.49746-101.96483-44.604924-159.312231-50.982415-63.774912-6.377491-121.072294-6.377491-172.054709 6.377491h-6.377491C326.060465 23.896835 262.335573 55.759281 198.63569 106.741696c-57.359906 44.604924-108.342321 101.96483-140.204768 165.689723C20.17848 348.898789 1.058511 425.366159 1.058511 508.21102 1.058511 648.403283 58.405913 775.890582 147.628265 871.452911c76.46737 76.46737 178.4322 127.449785 293.139508 146.569754a427.154357 427.154357 0 0 0 127.449785 0c-31.862446-31.862446-63.774912-63.774912-82.844862-101.96483z m0 0"
-                            fill="currentColor" p-id="4258"></path>
-                        <path
-                            d="M687.889305 718.555686c-0.787808-0.550215-2.563501-0.837827-5.352091-0.837827s-4.576788 0.450176-5.352091 1.338022-3.126221 9.303634-7.01524 25.247362-5.852286 24.684642-5.852286 26.260258 1.250488 3.238765 3.851504 5.001954 4.401719 2.676045 5.514654 2.676046c0.887847 0 1.675655-0.612739 2.338414-1.838218a104.565846 104.565846 0 0 0 4.176631-12.042204q3.176241-10.191481 6.01485-23.571708t2.838609-17.38179q0-4.014068-1.162954-4.851895zM839.511032 824.884721a10.416569 10.416569 0 0 0-5.001954-0.837828H800.120645q-4.014068 0-5.001954 1.000391t-1.000391 4.014068v16.043767q0 3.351309 1.000391 4.176632t5.001954 0.837827h34.438452q4.014068 0 5.177023-1.000391t1.175459-4.014068v-16.043767q-0.062524-3.338804-1.400547-4.176631z"
-                            fill="currentColor" p-id="4259"></path>
-                        <path
-                            d="M753.502435 492.567409c-146.569754 0-267.604533 121.072294-267.604533 267.604533s121.072294 261.277061 267.604533 261.277062 267.604533-121.072294 267.604533-267.604534-121.034779-261.277061-267.604533-261.277061zM718.838894 876.880031q-9.703791 0-21.733489-8.028136a4.151622 4.151622 0 0 0-3.013678-1.338022q-1.675655 0-4.3517 3.338804Q656.314471 914.319656 627.553236 914.319656a25.610004 25.610004 0 0 1-21.745995-10.87925q-8.028136-10.866745-8.028136-20.895662 0-14.042986 17.719422-29.086362 22.73388-19.057444 22.73388-23.409144 0-1.675655-4.676827-4.676827-14.380617-8.690895-19.395076-15.381008a25.009769 25.009769 0 0 1-5.001954-15.381008q0-8.690895 4.851896-29.761626t10.85424-41.478703a15.005862 15.005862 0 0 0 0.662758-4.014068q0-1.66315-4.676826-1.675654-22.746385 0-22.733881-28.423603 0-16.381399 4.676827-23.90934t19.732708-7.502931h12.704963a3.751465 3.751465 0 0 0 3.013677-1.175459q1.000391-1.162954 1.338023-5.852286 4.339195-31.424775 10.529113-38.952716t24.409535-7.50293q18.219617 0 25.910121 5.852286t7.690504 16.71903a82.819852 82.819852 0 0 1-2.000782 19.220008 70.752638 70.752638 0 0 0-2.000781 10.003908c0 1.112935 1.000391 1.675655 3.013677 1.675655q13.755373 0 19.732708 2.17585t6.01485 6.690113a24.39703 24.39703 0 0 1-2.676046 10.203986q-11.704572 24.409535-14.705744 33.438062a52.332943 52.332943 0 0 0-3.013677 16.381399q0 22.746385 22.071121 32.437671c1.338023 0.662759 2.000782 1.450567 2.000782 2.338413a3.864009 3.864009 0 0 1-1.338023 2.676045q-11.36694 10.003908-11.36694 33.438062a21.645955 21.645955 0 0 0 2.17585 9.528722 12.679953 12.679953 0 0 0 5.514654 6.189918q19.382571 10.366549 19.395076 24.071903 0 9.703791-9.528722 24.572099T718.838894 876.880031z m185.572489 0q0 20.720594-8.190699 28.248535t-29.924189 7.502931h-100.001563q-14.042986 0-22.396249-6.189918t-8.353263-13.880422a19.082454 19.082454 0 0 1 4.676827-13.042595q20.007816-21.070731 20.007816-40.290739t-22.071122-32.262602q-4.3517-2.676045-4.3517-11.704572 0-30.424385 32.437671-30.424385h99.976554q21.395858 0 29.761625 8.028136t8.353263 27.748339zM902.6607 744.803439q-9.028527 8.028136-25.409926 8.028136h-119.32161q-15.71864 0-25.247362-7.502931T723.165584 727.121532a49.181712 49.181712 0 0 1 5.677218-22.108636l25.072294-50.819852q19.382571-39.115279 23.234076-43.767096a26.110199 26.110199 0 0 1 9.19109-7.190309q5.339586-2.500977 14.205549-2.500977t22.24619 6.339977q13.367722 6.352481 13.380227 13.880422t-10.003908 13.880422a37.327081 37.327081 0 0 0-8.75342 8.028136 32.750293 32.750293 0 0 0-5.514654 10.529113 27.510746 27.510746 0 0 0-1.500586 10.203985v7.352873q0 6.352481-7.01524 18.757327a9.553732 9.553732 0 0 0-1.675655 5.001954q0 2.338413 5.352091 2.338413h23.759281c2.676045 0 4.014068-0.387651 4.014068-1.175459s-1.000391-2.388433-3.013677-4.851895q-10.704181-12.042204-10.704182-25.409926 0-14.368113 11.366941-21.896053t20.55803-7.502931a24.071903 24.071903 0 0 1 16.381399 6.352481q7.190309 6.352481 16.556467 22.396249l17.38179 30.424384q8.353263 14.380617 8.353263 27.923408T902.6607 744.803439z"
-                            fill="currentColor" p-id="4260"></path>
-                    </svg>
-                    <span style="font-weight: 600; font-size: 0.85rem;">{{ data.startAt }}</span>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://lys2021.com/"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Blog</a
+                    >
+                    <a
+                            href="https://github.com/Doge2077"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >GitHub</a
+                    >
+                    <a
+                            href="https://space.bilibili.com/38307035"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Bilibili</a
+                    >
                 </div>
             </div>
-        </div>
-    </div>
+        </li>
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img
+                                class="icon"
+                                src="https://cdn.acwing.com/media/user/profile/photo/192601_lg_fb0740bb46.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>邢淏喆</b></h3>
+
+                        <p class="card-sub">软件工程-21级</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Ai方向领军人物，致力于机器学习、深度学习、强化学习。</p>
+                    <p>
+                        曾获多项算法竞赛奖项和计算机设计大赛国二等奖项，曾任软件学院ACM集训队队长。后转为主攻人工智能算法和网络安全等方向，曾获多项人工智能赛道奖项。
+                    </p>
+                    <p>2023年创办“面哈盐工作室”，目前负责人工智能算法相关业务。</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://www.yuque.com/spumante"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Blog</a
+                    >
+                    <a
+                            href="https://github.com/spumant"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >GitHub</a
+                    >
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img class="icon" src="https://cdn.acwing.com/media/article/image/2024/03/02/149096_eb74b3cad8-b_c2eda270a2fa7e97d5d66e120da9939e.jpg" alt=""/>
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>金晨光</b></h3>
+
+                        <p class="card-sub">软件工程-21级</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>网络安全方向，致力于web全栈开发和web渗透。</p>
+                    <p>
+                        河工计算机专业最具天赋的竞赛选手，大一时期主攻算法竞赛，是河工历史第一个大满贯选手，大二时期主打CTF，仅半年斩获“全国大学生信息安全与对抗技术竞赛国一”等多项大奖。
+                    </p>
+                    <p>“面哈盐工作室”创始人之一，目前负责项目运维和网络安全。</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://jcg2023.top/"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Blog</a
+                    >
+                    <a
+                            href="https://github.com/TimeWillDiluteEverything"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >GitHub</a
+                    >
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img
+                                class="icon"
+                                src="https://cdn.acwing.com/media/article/image/2023/08/05/149096_f11e3e2233-QQ%E5%9B%BE%E7%89%8720230805142544.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>魏佳琦</b></h3>
+
+                        <p class="card-sub">计算机科学与技术-21级</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>现任河工计算机协会会长，Python领域专家。</p>
+                    <p>
+                        涉猎广泛，不仅拿过多项算法竞赛奖项，且在C++、Golang、人工智能等领域都有深耕，在Python领域颇有建树。致力于Python开发和爬虫技术。
+                    </p>
+                    <p>2023年开办Python训练营，为全校同学免费讲解Python学习。</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://github.com/thesugu"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >GitHub</a
+                    >
+                    <a
+                            href="https://space.bilibili.com/1477777202"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Bilibili</a
+                    >
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img
+                                class="icon"
+                                src="https://foruda.gitee.com/avatar/1663221884511407466/11617629_miaoli623_1663221884.png!avatar200"
+                                alt=""
+                        />
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>李仁豪</b></h3>
+
+                        <p class="card-sub">数据科学与大数据技术-21级</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Java领域专家，致力于微服务和架构设计。</p>
+                    <p>
+                        大一时期主攻算法竞赛，大二主攻软件开发方向竞赛，曾获计算机设计大赛国二等奖项。与多所名校、互联网大厂程序员有深度交流，经验丰富。
+                    </p>
+                    <p>户外运动爱好者，擅长马拉松、攀岩、乒乓球等。</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://blog.csdn.net/asscwf"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >CSDN</a
+                    >
+                    <a
+                            href="https://gitee.com/miaoli623"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >Gitee</a
+                    >
+                </div>
+            </div>
+        </li>
+        <li class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="column">
+                        <img
+                                class="icon"
+                                src="https://image.itbaima.net/images/40/image-20230923222424945.jpeg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="column">
+                        <h3 class="card-title"><b>朱子墨</b></h3>
+
+                        <p class="card-sub">人工智能-22级</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>网安安全方向，致力于全栈、逆向方向、密码杂项。</p>
+                    <p>高一开始参加CTF竞赛，曾获得强网杯-强网先锋，强网青少年国一，全国大学生信息安全与对抗技术竞赛国一
+                    ciscn国三,巅峰极客第四名,金盾信安省二,御网杯省一等多项奖项</p>
+                    <p>现任moectf项目负责人，网安工作室负责人。</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="card-link-wrapper">
+                    <a
+                            href="https://blog.csdn.net/tlp_zzm?spm=1000.2115.3001.5343"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >CSDN</a
+                    >
+                    <a
+                            href="https://github.com/tlpzzm"
+                            class="wp-block-button__link has-base-color has-text-color has-text-align-center wp-element-button card-link"
+                    >GitHub</a
+                    >
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
 </template>
 
 <script setup>
@@ -177,92 +295,255 @@ function getContestClass(status) {
 }
 onMounted(() => {
     hostname.value = window.location.hostname
-    if (hostname.value === 'newbie.frexlink.com') {
-        image.value = '/svg/Logo_GLOBAL_Thick.svg'
-    }
+    image.value = hostname.value === 'newbie.frexlink.com' ? '/svg/Logo_GLOBAL_Thick.svg' : image.value
     getContests()
     getInnerEvents()
     getLabs()
+
+    const speed = 60
+    const text = 'The Wall of Fame in HAUE'
+    const container = document.querySelector('h1.title')
+    let index = 0
+    const interval = setInterval(() => {
+        container.innerHTML += text[index]
+        index += 1
+        if (index === text.length) clearInterval(interval)
+    }, speed)
 })
 </script>
 
 <style scoped>
-.alink {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.15rem;
-    text-underline-offset: 2px;
-    transition: all 0.3s;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.alink:hover {
-    color: rgb(0, 162, 255);
-    text-decoration-line: underline;
+.container {
+  user-select: none;
+}
+
+.back {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@keyframes bottom-to-top {
+  from {
+    transform: translateY(30%);
+  }
+}
+
+.title {
+  font-weight: normal;
+  font-family: Poppins;
+  color: #1b8ec7;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 20px;
+  animation: bottom-to-top 0.5s;
+}
+
+.title::after {
+  content: '_';
+  animation: blink 0.6s infinite linear;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.spacer {
+  flex: 1;
+}
+
+.cards {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 20px 0;
+  display: grid;
+  grid-auto-columns: minmax(80%, min-width);
+  grid-auto-flow: column;
+  list-style: none;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  animation: bottom-to-top 0.5s;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    margin: 15px 0;
-    border-radius: 5px;
-    border: solid 2px var(--vp-c-text-3);
+  min-width: 500px;
+  scroll-snap-align: start;
+  padding: 20px;
+}
+.card > .card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 25px;
+  background: #f6f6f6;
+  box-shadow: 9px 9px 18px #c7c7c7, -9px -9px 18px #f9f9f9;
+  transition: all 0.2s;
+}
+.card > .card-body:hover {
+  color: #fff;
+  background: rgba(1, 44, 96, 0.85);
+}
+.icon {
+  width: 80px;
+  border-radius: 100%;
+  transition: 300ms;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+.card .card-title {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card-sub {
+  font-size: 1rem;
+}
+.card .card-content {
+  margin: 10px 0;
+}
+.card .card-link-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.card-link {
+  background: #117ac9;
+  padding: 7px 14px;
+  border-radius: 100px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 200ms;
+}
+.card-link:hover {
+  transform: scale(0.95);
+}
+.cards::-webkit-scrollbar {
+  height: 12px;
+}
+.cards::-webkit-scrollbar-thumb {
+  border-radius: 92px;
+  background: #117ac9;
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-auto-columns: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .cards {
+    grid-auto-columns: 33%;
+  }
+}
+@media (min-width: 1900px) {
+  .cards {
+    grid-auto-columns: 25%;
+  }
 }
 
-.card-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 30px;
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
 }
 
-.card-title {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 5px;
+button.learn-more {
+  width: 12rem;
+  height: auto;
 }
 
-.card-item {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    transition: all 0.2s;
-    border-radius: inherit;
-    border: solid 1px var(--vp-c-text-3);
-    position: relative;
+button.learn-more .circle {
+  transition: all 250ms cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #3498db;
+  border-radius: 1.625rem;
 }
 
-.card-item:hover {
-    transform: translate(-1px, -1px);
-    box-shadow: 1px 1px 2px var(--vp-c-text-3);
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
 }
 
-.contest-status {
-    position: absolute;
-    height: 90%;
-    width: 6px;
-    border-radius: 5px;
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 1.2rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
 }
 
-.contest-ico {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.29rem;
+  right: 0.35rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(-135deg);
 }
 
-.contest-info {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 15px;
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #3498db;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(-0.2rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
 </style>

@@ -6,3 +6,4 @@ gitChangelog: false
 ---
 
 <WallComponent />
+

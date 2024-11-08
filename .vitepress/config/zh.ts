@@ -1,5 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { forewordIcon, school, tools, backend, frontend, chatgpt, learn_408, hard_worker, run_bag } from '../theme/icons/svg-path'
+import { forewordIcon, school, tools, backend, frontend, chatgpt, learn_408, hard_worker, run_bag, acm } from '../theme/icons/svg-path'
 
 export const zh = defineConfig({
     lang: 'zh-Hans',
@@ -73,6 +73,15 @@ function sidebar(): DefaultTheme.SidebarItem[] {
                 { text: '河工计算机学院专业介绍', link: '/新手入门/河工计算机学院专业介绍', },
                 { text: '小白如何选择笔记本电脑', link: '/新手入门/小白如何选择笔记本电脑', },
                 { text: '转专业二三事', link: '/新手入门/转专业二三事', },
+            ]
+        },
+        {
+            text: acm + '竞赛经验',
+            collapsed: true,
+            items: [
+                { text: '竞赛介绍', link: '/竞赛经验/竞赛介绍', },
+                { text: '算法竞赛学习指南', link: '/竞赛经验/CTF竞赛学习指南', },
+                { text: 'CTF竞赛学习指南', link: '/竞赛经验/CTF竞赛学习指南', },
             ]
         },
         {

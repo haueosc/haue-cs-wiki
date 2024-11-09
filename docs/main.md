@@ -97,9 +97,9 @@ gitChangelog: false
 
 针对计算机的学习我们建立了以下学习矩阵：
 
-* [河工Java交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Zm8MUF5_X_NttegYnhdv9eeYxv2iC7sn&authKey=rwPlDN5zUbwU8WzOSvv%2FR3u8wwgS2yu7DAvFAq%2BMRATIglis8SNHg3%2FCLhW%2Bpi8I&noverify=0&group_code=907625834)
-* [河工Python交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V4RfyZcFpEw-wfnX-Ck6c0Q8a1NsHK2T&authKey=YK5doMcM43LIIDb8dFkcmymd9g7QThEB9q89m604hVq7VI6v69jSRIfmfQSrN6EE&noverify=0&group_code=476586332)
-* [河工C/C++交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK6lTceTXsM1ZHeWWo4i9gfiIy7YFvNz&authKey=O1BE3SHj%2FlfR%2BIo%2Bf9wsVWPl3Gd4YUDzRqk7IehjGpD4NZuMK2aKQ50Q3EcQMCc2&noverify=0&group_code=907733709)
+* [河工Java交流群](https://qm.qq.com/q/tb26YTqLzG)
+* [河工Python交流群](https://qm.qq.com/q/XAjg9KKiI2)
+* [河工C/C++交流群](https://qm.qq.com/q/J7hhe8nPI6)
 
 ****
 

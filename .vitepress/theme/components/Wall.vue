@@ -366,12 +366,12 @@ onMounted(() => {
 }
 
 .cards {
-  width: 85%;
+  width: 120%;
   margin: auto;
   margin-bottom: 0;
   padding: 20px 0;
   display: grid;
-  grid-auto-columns: minmax(80%, min-width);
+  grid-auto-columns: minmax(50%, min-width);
   grid-auto-flow: column;
   list-style: none;
   overflow: auto;
@@ -380,7 +380,7 @@ onMounted(() => {
 }
 
 .card {
-  min-width: 500px;
+  min-width: 10%;
   scroll-snap-align: start;
   padding: 20px;
 }

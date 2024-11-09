@@ -26,16 +26,12 @@
     （5）... ...
 -->
 
-****
-
 ## 课程资源
 
 ****
 
 - 课程地址：[C语言程序设计 已完结（CLion 2022 最新版）4K蓝光画质+杜比音效 梦开始的地方](https://www.bilibili.com/video/BV1Cr4y137os/?spm_id_from=333.999.0.0&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
 - 配套文档：[课程讲义](https://www.itbaima.cn/document/jd3e8u5cmvx5gco6)
-
-****
 
 ## 补充资源
 

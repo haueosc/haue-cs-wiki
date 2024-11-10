@@ -134,7 +134,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
                     text: 'Java技术栈',
                     collapsed: true,
                     items: [
-                        { text: '预防针', link: '/后端开发/Java技术栈/预防针' },
+                        { text: '学习路线', link: '/后端开发/Java技术栈/学习路线' },
                         { text: '基础阶段', link: '/后端开发/Java技术栈/基础阶段' },
                         { text: '提高阶段', link: '/后端开发/Java技术栈/提高阶段' },
                         { text: '进阶阶段', link: '/后端开发/Java技术栈/进阶阶段' },

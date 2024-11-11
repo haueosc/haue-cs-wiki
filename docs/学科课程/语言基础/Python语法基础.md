@@ -11,6 +11,11 @@
 - 课程时长：18h
 - 内容简介：《零基础入门学习Python》最新版教程，从小白零基础进行教学。
 
+<div align="center">
+    <image src="/images/学科课程/语言基础/Python.png" width="500"/>
+</div>
+
+
 **课程评价**：
 
 * 该课覆盖了 Python 语法，全面细致的教学了语法基础。

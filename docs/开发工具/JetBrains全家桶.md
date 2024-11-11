@@ -2,8 +2,6 @@
 
 由[@LYS](https://lys2021.com/)编辑此页面
 
-****
-
 ## 基本介绍
 
 ****
@@ -33,13 +31,16 @@ JetBrains 全家桶是指由 JetBrains 公司开发的一系列集成开发环�
 
 在[JetBrains 官网](https://www.jetbrains.com/)进行下载。
 
-![Image title](/images/开发工具/ides.png)
+<div align="center">
+    <image src="/images/开发工具/ides.png" width="500"/>
+</div>
 
 
 在对应IDE介绍主页点击 `Download` 即可跳转到下载界面，然后选择需要下载的版本。
 
-![Image title](/images/开发工具/idea.png)
-
+<div align="center">
+    <image src="/images/开发工具/idea.png" width="500"/>
+</div>
 
 推荐 `Windows` 用户选择 `.exe` 下载安装即可。
 
@@ -55,8 +56,9 @@ JetBrains 为安装了其IDE开发环境的管理工具——Toolbox。
 
 首先在[官网安装Toolbox](https://www.jetbrains.com/toolbox-app/)。
 
-<img src="/images/开发工具/toolbox.png"/>
-
+<div align="center">
+    <img src="/images/开发工具/toolbox.png" width="500"/>
+</div>
 
 启动 Toolbox，它会自动检测你已经安装过的 JetBrains IDE。
 
@@ -101,8 +103,9 @@ JetBrains 系列的产品为学生提供免费服务，申请条件如下：
 
 以 WebStorm 为例，在安装完成后首次打开时会出现激活页面。
 
-![Image title](/images/开发工具/code.png)
-
+<div align="center">
+    <img src="/images/开发工具/code.png" width="500"/>
+</div>
 
 这里提供一个[神秘链接](https://pan.baidu.com/s/1m9Fn2Um6kvHKEc-TcSS_gw?pwd=haue)，提供对应激活码即可激活。
 
@@ -112,7 +115,9 @@ JetBrains 系列的产品为学生提供免费服务，申请条件如下：
 
 以 WebStorm 为例，在安装完成后首次打开时会出现激活页面。
 
-![](/images/开发工具/server.png)
+<div align="center">
+    <img src="/images/开发工具/server.png" width="500"/>
+</div>
 
 
 

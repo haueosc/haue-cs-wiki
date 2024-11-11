@@ -11,6 +11,11 @@
 - 课程时长：29h
 - 内容简介：针对于大学生录制的 Java 学习课程（含 JavaSE 和数据结构与算法）
 
+<div align="center">
+    <image src="https://oss.itbaima.cn/internal/static/curriculum/e75e4b2f7662250b.webp" width="500"/>
+</div>
+
+
 **课程评价**：
 
 * 该课程细致教学了 Java8 语法基础和数据结构的内容。

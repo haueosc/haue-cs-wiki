@@ -11,6 +11,10 @@
 - 课程时长：14h
 - 内容简介：针对于大学生录制的 C 语言学习课程（含 C 语言程序设计基础/高级内容）
 
+<div align="center">
+    <image src="https://oss.itbaima.cn/internal/static/curriculum/4326b4cd86dd9743.webp" width="500"/>
+</div>
+
 **课程评价**：
 
 * 该课程全面细致地教授了 C 语言基础和部分高级内容。

@@ -190,7 +190,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             text: learn_408 + '考研经验',
             collapsed: true,
             items: [
-                { text: '24届考研上岸211', link: '/工作经验/预防针', },
+                { text: '24届考研上岸211', link: '/考研经验/24届考研上岸211', },
             ]
         },
         {

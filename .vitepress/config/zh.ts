@@ -55,8 +55,8 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '首页', link: '/Main' },
-        { text: '名人墙', link: '/Wall' },
+        { text: '首页', link: '/main' },
+        { text: '名人墙', link: '/wall' },
         { text: 'HAUE OJ', link: 'http://www.haueacm.top/' },
     ]
 }

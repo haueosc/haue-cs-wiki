@@ -50,7 +50,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /dist
+          path: ./dist
 
   # 部署工作
   deploy:

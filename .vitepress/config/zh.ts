@@ -5,6 +5,10 @@ export const zh = defineConfig({
     lang: 'zh-Hans',
     title: "HAUE CS WIKI",
     description: "河工计算机学习指南",
+    ignoreDeadLinks: [
+        // 忽略精确网址 "/playground"
+        '前端开发\Vue技术栈\Vue基础.md',
+      ],
     themeConfig: {
         //顶部导航栏选项
         nav: nav(),

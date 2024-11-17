@@ -26,7 +26,6 @@ import HeroImage from './components/HeroImage.vue'
 //-------------------------------------------------
 export default {
   extends: DefaultTheme,
-
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),

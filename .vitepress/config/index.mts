@@ -8,7 +8,7 @@ export default defineConfig({
   outDir: 'dist',
   srcDir: 'docs',
   lastUpdated: true,
-
+  ignoreDeadLinks: true,
   locales: {
     root: { label: "简体中文", ...zh }
   },

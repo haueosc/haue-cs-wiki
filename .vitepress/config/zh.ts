@@ -197,7 +197,6 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             text: hard_worker + '工作经验',
             collapsed: true,
             items: [
-                { text: '预防针', link: '/工作经验/预防针', },
                 { text: '找工作指南', link: '/工作经验/找工作指南', },
                 { text: '简历技巧', link: '/工作经验/简历技巧', },
                 { text: '面试技巧', link: '/工作经验/面试技巧', },

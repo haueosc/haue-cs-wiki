@@ -200,7 +200,6 @@ function sidebar(): DefaultTheme.SidebarItem[] {
                 { text: '找工作指南', link: '/工作经验/找工作指南', },
                 { text: '简历技巧', link: '/工作经验/简历技巧', },
                 { text: '面试技巧', link: '/工作经验/面试技巧', },
-                { text: '薪资拆解', link: '/工作经验/薪资拆解', },
                 {
                     text: '案例分享',
                     collapsed: true,

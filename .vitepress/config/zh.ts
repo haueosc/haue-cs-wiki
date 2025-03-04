@@ -191,6 +191,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             collapsed: true,
             items: [
                 { text: '24届考研上岸211', link: '/考研经验/24届考研上岸211', },
+                { text: '25届考研342分', link: '/考研经验/25届考研342分', },
             ]
         },
         {
